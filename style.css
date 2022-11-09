@@ -1,0 +1,31 @@
+.main{
+    border: 2px solid black;
+}
+.nav{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    background-color: yellow;
+    
+
+    
+}
+.nav img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen and (mmax-width: 480px) {
+    .main, .nav, .box  { 
+     width: 100%;
+    }
+}
